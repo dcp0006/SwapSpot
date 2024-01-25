@@ -19,11 +19,11 @@
     <article>
         <form action="<?= base_url() ?>RegisterArticle" id="registerArticle" enctype="multipart/form-data" method="post">
             <label for="name">Nombre del producto</label>
-            <input type="text" name="ProductName" id="ProductName" placeholder="Name" required>
+            <input type="text" name="ProductName" id="ProductName" placeholder="Pon el nombre del articulo" required>
             <label for="description">Descripción del producto</label>
-            <textarea name="ProductDescription" id="ProductDescription" cols="30" rows="10" required></textarea>
+            <textarea name="ProductDescription" placeholder="Haz un breve resumen de tu producto" id="ProductDescription" cols="30" rows="10" required></textarea>
             <label for="number">Precio</label>
-            <input type="text" name="ProductPrice" id="ProductPrice" required>
+            <input type="text" name="ProductPrice" id="ProductPrice" placeholder="Pon el precio que consideres" required>
             <p>El precio debe estar con . antes de los centimos</p>
             <input type="file" name="ProductImage" id="ProductImage" class="form-control"  accept="image/*"  required>
             <div id="controles">

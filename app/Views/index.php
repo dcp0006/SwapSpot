@@ -20,9 +20,9 @@
             <div class="uno">
                 <form action="<?= base_url()?>UserPage" id="loginForm">
                     <label for="">User</label>
-                    <input type="text" name="userLog" id="userLog">
+                    <input type="text" placeholder="Introduce tu usuario" name="userLog" id="userLog">
                     <label>Password</label>
-                    <input type="password" name="passwordLog" id="passwordLog">
+                    <input type="password" placeholder="Pon tu contraseña" name="passwordLog" id="passwordLog">
                     <div id="controles">
                         <input type="submit" value="Login">
                         <input type="reset" value="Borrar Datos">
@@ -32,13 +32,13 @@
             <div class="content dos">
                 <button onclick="mostrarPopup()" value="mostrar" id="boton">Registrar usuario</button>
                 <dialog id="miPopup">
-                <form action="<?= base_url() ?>Register" id="registerForm" method="get">
+                <form action="<?= base_url() ?>Register" placeholder="Pon tu nombre de usuario" id="registerForm" method="get">
                     <label for="">User</label>
                     <input type="text" name="userId" id="userId" required data-tooltip="usuario">
                     <label>Password</label>
-                    <input type="password" name="password" id="userPass" required>
+                    <input type="password" name="password" placeholder="Pon tu contraseña" id="userPass" required>
                     <label>Repeat Password</label>
-                    <input type="password" name="passwordConfirm" id="passwordConfirm" required>
+                    <input type="password" name="passwordConfirm" placeholder="Repite tu contraseña" id="passwordConfirm" required>
                     <div>
                         <input type="submit" value="Register">
                     </div>
