@@ -1,0 +1,73 @@
+CRITICAL - 2024-01-20 11:38:58 --> ErrorException: Undefined array key "contraseña"
+in APPPATH\Views\index.php on line 181.
+ 1 APPPATH\Views\index.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contraseña"', 'C:\\xampp\\htdocs\\Wallapop\\app\\Views\\index.php', 181)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Wallapop\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(15): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 11:40:06 --> ErrorException: Undefined array key "contraseña"
+in APPPATH\Views\index.php on line 181.
+ 1 APPPATH\Views\index.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contraseña"', 'C:\\xampp\\htdocs\\Wallapop\\app\\Views\\index.php', 181)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Wallapop\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 11:40:51 --> ErrorException: Undefined array key "contraseña"
+in APPPATH\Views\index.php on line 181.
+ 1 APPPATH\Views\index.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "contraseña"', 'C:\\xampp\\htdocs\\Wallapop\\app\\Views\\index.php', 181)
+ 2 SYSTEMPATH\View\View.php(228): include('C:\\xampp\\htdocs\\Wallapop\\app\\Views\\index.php')
+ 3 SYSTEMPATH\View\View.php(231): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1178): CodeIgniter\View\View->render('index', [], true)
+ 5 APPPATH\Controllers\Home.php(13): view('index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:34:54 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Models\UsersModel.php(19): CodeIgniter\BaseModel->save([...])
+ 5 APPPATH\Controllers\Home.php(20): App\Models\UsersModel->saveUser(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->register()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:35:44 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Models\UsersModel.php(19): CodeIgniter\BaseModel->save([...])
+ 5 APPPATH\Controllers\Home.php(20): App\Models\UsersModel->saveUser(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->register()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:36:14 --> ErrorException: Undefined variable $userId
+in APPPATH\Controllers\Home.php on line 20.
+ 1 APPPATH\Controllers\Home.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $userId', 'C:\\xampp\\htdocs\\Wallapop\\app\\Controllers\\Home.php', 20)
+ 2 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->register()
+ 3 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 4 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-20 13:36:41 --> CodeIgniter\Database\Exceptions\DataException: There is no data to insert.
+in SYSTEMPATH\BaseModel.php on line 788.
+ 1 SYSTEMPATH\BaseModel.php(788): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('insert')
+ 2 SYSTEMPATH\Model.php(744): CodeIgniter\BaseModel->insert([], false)
+ 3 SYSTEMPATH\BaseModel.php(713): CodeIgniter\Model->insert([...], false)
+ 4 APPPATH\Models\UsersModel.php(19): CodeIgniter\BaseModel->save([...])
+ 5 APPPATH\Controllers\Home.php(20): App\Models\UsersModel->saveUser(null, null)
+ 6 SYSTEMPATH\CodeIgniter.php(941): App\Controllers\Home->register()
+ 7 SYSTEMPATH\CodeIgniter.php(502): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(361): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(79): CodeIgniter\CodeIgniter->run()
