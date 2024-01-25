@@ -2,7 +2,7 @@
 
 ## What is SwapSpot
 
-SwapSpot is a online shop focused on the client, the main service is that al clients can upload to the web their own products and put their price based on their opinion.
+SwapSpot is a online shop focused on the client, the main service is that al clients can upload to the web their own products and put their price based on their opinion.¡Advice for mobile users! This website just work well in desktop mode.
 [My Page](http://dcp.42web.io/public/)
 
 ## Why is created?
