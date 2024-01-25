@@ -17,7 +17,7 @@
          <nav>
         <form action="<?=base_url()?>NewProducto" id="Buscador" >
              <h2>Buscador</h2>
-             <input type="text" name="busqueda" id="busqueda">
+             <input type="text" placeholder="Introduce tu busqueda" name="busqueda" id="busqueda">
              <input type="submit" value="Buscar"> 
              <input type="button" value="Limpiar" id="Limpiar"> 
              <label id="sessionClose"><u>Volver a pagina de usuario</u></label>     
