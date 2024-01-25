@@ -2,12 +2,12 @@
 
 ## What is SwapSpot
 
-SwapSpot is a online shop focused on the client, the main service is that al clients can upload to the web their own products and put their price based on their opinion.¡Advice for mobile users! This website just work well in desktop mode.
+SwapSpot is a online shop focused on the client, the main service is that al clients can upload to the web their own products and put their price based on their opinion. **¡Advice for mobile users!** This website just work well in desktop mode.
 [My Page. **Click Me!**](http://dcp.42web.io/public/)
 
 ## Why is created?
 
-This is a project made by a student of the DAW (Web Application Design) which it objetive is to show and practice the control of the student using the Codeignitir framework. This practice is focused on the use of the models.
+This is a project **made by a student** of the DAW (Web Application Design) which it objetive is to show and practice the control of the student using the Codeignitir framework. This practice is focused on the use of the models.
 
 
 ## Repository Management
